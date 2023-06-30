@@ -32,7 +32,7 @@ Note:
 In the given sample input, the largest square containing only 1's has a side length of 2, so the area is 4.
 */
 
-public class LargestSquare {
+public class Largest_Square {
     public int maximalSquare(char[][] matrix) {
         int maxSide = 0; // variable to store the maximum side length of the square
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
